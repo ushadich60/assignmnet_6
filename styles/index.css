@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+
+body{
+
+
+    margin: 30px;
+    margin-left: 150px;
+
+}
+html{
+
+    background-color: var(--bgcolor-glob)    /* var(--bgcolor-1) */ /**/;
+
+}
+:root{
+
+
+    --bgcolor-1 : #2ecc71 ;
+
+    --bgcolor-glob : rgba(61, 112, 179, 0.205)  ;
+    --bgcolor-class : rgb(255, 255, 255) ;
+
+
+}
+.tanisection{
+
+    border: 0.2px solid black;
+    height: 200px;
+    width: 1200px;
+    background-color: var(--bgcolor-class);
+
+}
+
+
+.c2input{
+
+            background-color: var(--bgcolor-class);
+            width: 250px;
+            height: 50px;
+
+}
+.cibutton{
+
+        background-color: var(--bgcolor-1);
+        color: var(--bgcolor-class);
+        height: 33px;
+
+
+
+
+}
+
+
+.fff1{
+
+    border: 0.5px solid black;
+    height: 100px;
+    width: 900px;
+    margin: 55px;
+    background-color:rgba(189, 189, 189,0.66);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+.fff1>p{
+    padding: 10px 20px;
+    background-color: #3498db;
+    border-radius: 25px;
+    color: white;
+    height: 37px;
+
+}
+.awwalsection{
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.2px solid black;
+    height: 200px;
+    width: 1200px;
+    background-color: var(--bgcolor-class);
+
+}

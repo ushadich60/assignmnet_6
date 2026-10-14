@@ -1,0 +1,30 @@
+:root{
+
+    --bodybg: #f4f6f9;
+    --primary:  #1e293b;
+    --acent:#1e293b;
+    --status:#22c55e;
+
+
+}
+
+.classi1{
+
+    background-color: var(--primary);
+    height: 90px
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: var(--bodybg);
+    font-size: 30px;
+    gap: 10px;
+
+}
+.classi1>:nth-child(1){
+
+    color: red;
+    
+    margin-right: 900px;
+
+}
